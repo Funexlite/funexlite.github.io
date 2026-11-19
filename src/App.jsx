@@ -1,10 +1,23 @@
-
-import './App.css'
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import SkillsStrip from "./components/SkillsStrip";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
-  return(
-    <h1 className='text-3xl font-bold underline'>Hello World</h1>
-  )
+  return (
+    <div className="min-h-screen bg-ink pb-16 font-sans text-white">
+      <Navbar />
+      <main>
+        <Hero />
+        <SkillsStrip />
+        <Projects />
+        <About />
+      </main>
+    </div>
+  );
 }
 
 export default App
