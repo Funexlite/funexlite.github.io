@@ -15,7 +15,9 @@ function App() {
         <SkillsStrip />
         <Projects />
         <About />
+        <Contact />
       </main>
+      <Footer />
     </div>
   );
 }

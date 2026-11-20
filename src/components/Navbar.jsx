@@ -23,7 +23,7 @@ export default function Navbar() {
   }, [open]);
 
   return (
-    <header className="relative z-20">
+    <header className="sticky top-0 z-20 border-b border-white/10 bg-ink/90 backdrop-blur">
       <nav aria-label="Main" className="mx-auto flex max-w-6xl items-center justify-between px-5 py-5">
         <a href="#home" className={`flex items-center gap-2 text-xl font-semibold tracking-tight ${focusRing}`}>
           <span className="grid size-8 place-items-center rounded-lg bg-accent text-base font-bold text-ink">
