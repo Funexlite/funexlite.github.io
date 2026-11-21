@@ -23,12 +23,12 @@ export default function Hero() {
   const last = rest.join(" ");
 
   return (
-    <section id="home" className="mx-auto max-w-6xl scroll-mt-24 px-5">
+    <section id="home" className="mt-4 mx-auto max-w-6xl scroll-mt-24 px-5">
       <div className="grid overflow-hidden rounded-[28px] border border-white/10 bg-panel lg:grid-cols-2">
         {/* Photo side */}
         <div className="relative min-h-85 bg-linear-to-br from-[#14396a] via-[#0b1730] to-panel motion-safe:animate-fade-up lg:min-h-130">
           {photo ? (
-            <img src={photo} alt={`Portrait of ${name}`} className="absolute inset-0 size-full object-cover object-top" />
+            <img src={photo} alt={`Portrait of ${name}`} className="absolute inset-0 size-full object-cover object-center" />
           ) : (
             <PhotoPlaceholder />
           )}
