@@ -29,7 +29,7 @@ export const about = {
   ],
 
   lookingFor: {
-    title: "Open to junior full stack and software developer roles.",
+    title: "Open to junior full stack web and software developer roles.",
     note: "Internships, contracts and freelance projects too.",
   },
 };

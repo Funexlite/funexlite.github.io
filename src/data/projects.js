@@ -8,7 +8,7 @@ export const projects = [
     id: "weather-app",
     title: "Weather App",
     description:
-      "Search any city and see current conditions. Handles loading, empty and error states.",
+      "Search any city and see current conditions. Handles loading, empty and error states, using little css.",
     image: weatherSnap,
     tags: ["HTML", "CSS", "JavaScript", "REST API"],
     liveUrl: "",
